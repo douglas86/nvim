@@ -13,6 +13,10 @@ set clipboard=unnamedplus "using system clipboard
 set ttyfast "Speed up scrolling in vim
 set spell "enable spell check
 set noswapfile "disable creating swap file
+set autoread
+
+"Auto commands
+au CursorHold * checktime
 
 " color codes for popup menu
 hi Pmenu ctermbg=darkgrey
