@@ -15,5 +15,3 @@ source $HOME/.config/nvim/plugins/cocSettings.vim
 
 " nerd-fonts
 " vim-devicons
-" AutoSave.nvim
-" au InsertLeave * :w

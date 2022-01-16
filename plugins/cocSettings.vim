@@ -2,4 +2,4 @@
 map m :CocCommand explorer <CR>
 
 " coc-prettier
-au CursorHold,BufLeave,VimLeave *.html,*.css,*.js,*.jsx :CocCommand prettier.formatFile <CR>
+au InsertLeave *.html,*.css,*.js,*.jsx,*.json :CocCommand prettier.formatFile <CR>

@@ -22,4 +22,4 @@ hi PmenuSel ctermbg=lightblue
 
 " close preview window when saving file
 autocmd BufWrite *.* pclose
-au InsertLeave * :w!
+au InsertLeave,TextChanged *.* :w!
