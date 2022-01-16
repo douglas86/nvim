@@ -6,7 +6,11 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"]
   },
-  "python.jediEnabled": false,
+  // prettier
+  "prettier.printWidth":80,
+  "prettier.tabWidth":4,
+  "prettier.singleQuote":true,
+  "coc.preferences.formatOnSaveFiletypes":["css", "html","jsx","js"],
   "html.format.enable": true,
   "html.enable": true,
   "html.filetypes": [
