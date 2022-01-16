@@ -13,3 +13,7 @@ endfunction
 "This is to source the settings for all coc plugins
 source $HOME/.config/nvim/plugins/cocSettings.vim
 
+" nerd-fonts
+" vim-devicons
+" AutoSave.nvim
+" au InsertLeave * :w
