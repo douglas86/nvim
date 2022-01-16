@@ -10,3 +10,6 @@ call plug#begin('~/.config/nvim/plugged')
 source $HOME/.config/nvim/plugins/plugins.vim
 
 call plug#end()
+
+"File for all plugin settings in vim
+source $HOME/.config/nvim/plugins/settings.vim
