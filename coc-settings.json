@@ -1,0 +1,21 @@
+{
+  // explorer
+  "explorer.width": 25,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"]
+  },
+  "python.jediEnabled": false,
+  "html.format.enable": true,
+  "html.enable": true,
+  "html.filetypes": [
+    "html",
+    "handlebars",
+    "django",
+	"*.jsx"
+  ],
+  "cSpell.userWords": [
+    "Kelvingrove"
+  ]
+}
