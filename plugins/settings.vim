@@ -59,6 +59,9 @@ nmap <c-b> :Git push<CR>
 
 " gv
 
+" vim-prettier
+au InsertLeave *.html,*.css,*.js,*.jsx,*.json :PrettierAsync
+
 " emmet-vim
 let g:user_emmet_leader_key=','
 
