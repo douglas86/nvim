@@ -3,8 +3,8 @@ set nu "Set line numbering
 " set ignorecase "case insensitive
 " set hlsearch "highlight search
 " set incsearch "incremental search
-set tabstop=4 "number of columns occupied by a tab
-set softtabstop=4 "see multiple spaces as tabstop
+set tabstop=2 "number of columns occupied by a tab
+set softtabstop=2 "see multiple spaces as tabstop
 set expandtab "converts tabs to white spaces
 " syntax on "syntax highlighting
 set clipboard+=unnamedplus "using system clipboard

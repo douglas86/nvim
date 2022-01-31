@@ -1,26 +1,33 @@
 {
-    // explorer
-    "explorer.width": 25,
-    "explorer.icon.enableNerdfont": true,
-    "explorer.previewAction.onHover": false,
-    "explorer.keyMappings.global": {
-        "<cr>": ["expandable?", "expand", "open"],
-        "v": "open:vsplit"
-    },
-    // prettier
-    "prettier.printWidth": 80,
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": true,
-    "coc.preferences.formatOnSaveFiletypes": [
-        "css",
-        "html",
-        "jsx",
-        "javascript",
-        "json"
-    ],
-    // html
-    "html.format.enable": true,
-    "html.enable": true,
-    "html.filetypes": ["html", "handlebars", "django", "*.jsx"],
-    "cSpell.userWords": ["Kelvingrove"]
+        // explorer
+        "explorer.width": 25,
+        "explorer.icon.enableNerdfont": true,
+        "explorer.previewAction.onHover": false,
+        "explorer.keyMappings.global": {
+                "<cr>": [
+                        "expandable?",
+                        "expand",
+                        "open"
+                ],
+                "v": "open:vsplit"
+        },
+        // prettier
+        "prettier.printWidth": 80,
+        "prettier.tabWidth": 2,
+        "prettier.singleQuote": true,
+        "coc.preferences.formatOnSaveFiletypes": [
+                "prisma"
+        ],
+        // html
+        "html.format.enable": true,
+        "html.enable": true,
+        "html.filetypes": [
+                "html",
+                "handlebars",
+                "django",
+                "*.jsx"
+        ],
+        "cSpell.userWords": [
+                "Kelvingrove"
+        ]
 }

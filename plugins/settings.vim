@@ -60,7 +60,11 @@ nmap <c-b> :Git push<CR>
 " gv
 
 " vim-prettier
-au InsertLeave *.html,*.css,*.js,*.jsx,*.json :PrettierAsync
+au InsertLeave *.html,*.css,*.js,*.jsx,*.json,*.prisma,*.tsx,*.ts :PrettierAsync<CR>
+" nmap <c-s> :PrettierAsync<CR>
+" au InsertLeave *.prisma :PrettierAsync
+let g:prettier#config#tab_width = '2'
+let g:prettier#config#use_tabs = 'auto'
 
 " emmet-vim
 let g:user_emmet_leader_key=','
