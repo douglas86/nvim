@@ -54,13 +54,16 @@ nmap <leader>gK 9999<leader>gk
 " vim-fugitive
 nmap <c-g> :Git add . <bar> Git commit<CR>
 nmap <c-b> :Git push<CR>
+nmap <c-B> :Git -c push.default=current push<CR>
 
 " vim-rhubarb
 
 " gv
 
 " vim-prettier
-au BufWritePre,InsertLeave,TextChanged *.html,*.css,*.js,*.jsx,*.json,*.prisma,*.tsx,*.ts :PrettierAsync<CR>
+au CursorHold,BufWinLeave *.html,*.css,*.js,*.jsx,*.json,*.prisma,*.tsx,*.ts :PrettierAsync<CR>
+set updatetime=2000
+
 " nmap <c-s> :PrettierAsync<CR>
 " au InsertLeave *.prisma :PrettierAsync
 let g:prettier#config#tab_width = '2'
