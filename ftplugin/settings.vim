@@ -16,6 +16,8 @@ set autoread
 "Auto commands
 au CursorHold * checktime
 
+au CursorHold,BufWinLeave *.prisma silent! :!npx prisma format
+
 " color codes for popup menu
 hi Pmenu ctermbg=darkgrey
 hi PmenuSel ctermbg=lightblue
