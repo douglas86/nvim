@@ -60,7 +60,7 @@ nmap <c-b> :Git push<CR>
 " gv
 
 " vim-prettier
-au InsertLeave *.html,*.css,*.js,*.jsx,*.json,*.prisma,*.tsx,*.ts :PrettierAsync<CR>
+au BufWritePre,InsertLeave,TextChanged *.html,*.css,*.js,*.jsx,*.json,*.prisma,*.tsx,*.ts :PrettierAsync<CR>
 " nmap <c-s> :PrettierAsync<CR>
 " au InsertLeave *.prisma :PrettierAsync
 let g:prettier#config#tab_width = '2'
