@@ -3,6 +3,8 @@ map m :CocCommand explorer <CR>
 
 " coc-prettier
 " au InsertLeave *.html,*.css,*.js,*.jsx,*.json :CocCommand prettier.formatFile <CR>
+au CursorHold,BufWinLeave *.prisma :CocCommand prettier.formatFile <CR>
+set updatetime=2000
 
 " coc-snippets
 " handling snippets
