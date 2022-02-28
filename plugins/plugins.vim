@@ -25,5 +25,4 @@ Plug 'pangloss/vim-javascript', {'for': ['javascript']} "syntax highlighting for
 Plug 'maxmellon/vim-jsx-pretty', {'for': ['javascriptreact']} "syntax highlighting for jsx and ejs
 
 Plug 'ap/vim-css-color', {'for': ['css']} "show a description of what color you are using
-Plug 'haishanh/night-owl.vim', {'for': ['prisma']}
 Plug 'pantharshit00/vim-prisma'
