@@ -11,7 +11,6 @@ Plug 'mhinz/vim-signify' "this help with gitgutter to update the github signs in
 Plug 'tpope/vim-fugitive' "Used for github
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
-Plug 'prettier/vim-prettier'
 
 Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs' "closing of pairs

@@ -61,8 +61,8 @@ nmap <c-B> :Git -c push.default=current push<CR>
 " gv
 
 " vim-prettier
-au CursorHold,BufWinLeave *.html,*.css,*.js,*.jsx,*.json,*.tsx,*.ts :PrettierAsync<CR>
-set updatetime=1000
+" au CursorHold,BufWinLeave *.html,*.css,*.js,*.jsx,*.json,*.tsx,*.ts :PrettierAsync<CR>
+" set updatetime=1000
 
 " nmap <c-s> :PrettierAsync<CR>
 " au InsertLeave *.prisma :PrettierAsync

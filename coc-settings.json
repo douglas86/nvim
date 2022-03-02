@@ -16,5 +16,6 @@
   "html.format.enable": true,
   "html.enable": true,
   "html.filetypes": ["html", "handlebars", "django", "*.jsx"],
-  "cSpell.userWords": ["Kelvingrove"]
+  "cSpell.userWords": ["Kelvingrove"],
+  "snippets.ultisnips.usePythonx": false
 }
