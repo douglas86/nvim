@@ -11,3 +11,9 @@ nmap <c-l> <c-w>l
 
 "coc-explorer
 map m :CocCommand explorer <CR>
+
+"coc-snippets
+imap <c-z> <Plug>(coc-snippets-expand)
+let g:coc_snippet_next = '<c-x>'
+let g:coc_snippet_prev = '<c-a>'
+map S :CocCommand snippets.editSnippets <CR>

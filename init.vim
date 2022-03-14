@@ -13,4 +13,8 @@ source $HOME/.config/nvim/ftplugins/pluginsSettings.vim
 "shortcuts
 source $HOME/.config/nvim/ftplugins/shortcuts.vim
 
+"generalSettings
 source $HOME/.config/nvim/ftplugins/generalSettings.vim
+
+"autoCommands
+source $HOME/.config/nvim/ftplugins/autoCommands.vim
