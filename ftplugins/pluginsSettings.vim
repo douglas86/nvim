@@ -70,7 +70,7 @@ let g:NERDToggleCheckAllLines = 1 "Enable NERDCommenterToggle to check all selec
 
 " vimwiki
 " refer to the md plugins file for these settings
-let g:vimwiki_list = [{'path':'~/.vim/vimwiki', 'syntax':'default', 'ext':'.md'}]
+let g:vimwiki_list = [{'path':'~/.config/nvim/vimwiki', 'syntax':'default', 'ext':'.md'}]
 let g:vimwiki_hl_headers = 1
 au filetype vimwiki silent! iunmap <buffer> <Tab>
 
