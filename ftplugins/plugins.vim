@@ -1,9 +1,11 @@
-Plug 'dracula/vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tomasiser/vim-code-dark'
 
 Plug 'junegunn/fzf', {'dir':'~/.fzf', 'do':'./install --all'}
 Plug 'junegunn/fzf.vim'
 
-Plug 'neocide/coc.nvim', {'branch':'release'}
+Plug 'neoclide/coc.nvim', {'branch':'release'}
 
 Plug 'ryanoasis/nerd-fonts'
 Plug 'ryanoasis/vim-devicons'

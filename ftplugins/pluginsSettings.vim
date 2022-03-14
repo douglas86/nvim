@@ -1,9 +1,12 @@
-"dracula/vim
-if (has("termguicolors"))
-	set termguicolors
-endif
-syntax enable
-colorscheme dracula
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#formatter = 'default'
+
+" vim-code-dark
+let g:airline_theme = 'codedark'
 
 "fuzzy finder
 nnoremap <C-p> :FZF<CR>

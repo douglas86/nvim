@@ -6,7 +6,7 @@ set clipboard+=unnamedplus
 set ttyfast
 set noswapfile
 set autoread
-set updatetime=2000
+set updatetime=100
 
 "color codes for popus menu
 "hi Pmenu ctermbg=darkgrey
