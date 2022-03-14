@@ -1,3 +1,6 @@
+"coc-explorer
+au VimEnter * :CocCommand explorer
+
 "coc-prettier
 au CursorHold,BufWinLeave *.html,*.css,*.js,*jsx,*.json,*.tsx,*ts :CocCommand prettier.formatFile <CR>
 
