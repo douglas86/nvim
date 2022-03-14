@@ -9,3 +9,8 @@ call plug#end()
 
 "Settings for plugins
 source $HOME/.config/nvim/ftplugins/pluginsSettings.vim
+
+"shortcuts
+source $HOME/.config/nvim/ftplugins/shortcuts.vim
+
+source $HOME/.config/nvim/ftplugins/generalSettings.vim
