@@ -1,4 +1,25 @@
-" coc.nvim
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#formatter = 'default'
+
+" vim-code-dark
+let g:airline_theme = 'codedark'
+
+"fuzzy finder
+nnoremap <C-p> :FZF<CR>
+let g:fzf_action = {
+			\ 'ctrl-t':'tab-split',
+			\ 'ctrl-s':'split',
+			\ 'ctrl-v':'vsplit'
+			\ }
+"if using this make sure to install silversearcher-ag
+"$ sudo apt-get install silversearcher-ag
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
+"coc.nvim
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :
@@ -10,25 +31,9 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-"This is to source the settings for all coc plugins
-source $HOME/.config/nvim/plugins/cocSettings.vim
+let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets']
 
-" nerd-fonts
-
-" vim-devicons
-
-" vim-airline & vim-airline-themes
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#formatter = 'default'
-
-"vim-code-dark
-let g:airline_theme = 'codedark'
-autocmd VimEnter * colorscheme codedark
-
-" close-buffers.vim
+"close-buffers
 " timer to close all hidden buffers every 5 sec
 let timer = timer_start(5000, 'CloseHiddenBuffers', {'repeat':-1})
 function! CloseHiddenBuffers(timer)
@@ -37,7 +42,6 @@ endfunction
 
 " vim-signify
 " Change these if you want
-set updatetime=100 "default updatetime 4000ms is not good for async update
 let g:signify_sign_add               = '+'
 let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
@@ -51,28 +55,8 @@ nmap <leader>gk <plug>(signify-prev-hunk)
 nmap <leader>gJ 9999<leader>gJ
 nmap <leader>gK 9999<leader>gk
 
-" vim-fugitive
-nmap <c-g> :Git add . <bar> Git commit<CR>
-nmap <c-b> :Git push<CR>
-nmap <c-B> :Git -c push.default=current push<CR>
-
-" vim-rhubarb
-
-" gv
-
-" vim-prettier
-" au CursorHold,BufWinLeave *.html,*.css,*.js,*.jsx,*.json,*.tsx,*.ts :PrettierAsync<CR>
-" set updatetime=1000
-
-" nmap <c-s> :PrettierAsync<CR>
-" au InsertLeave *.prisma :PrettierAsync
-let g:prettier#config#tab_width = '2'
-let g:prettier#config#use_tabs = 'auto'
-
 " emmet-vim
 let g:user_emmet_leader_key=','
-
-" auto-pairs
 
 " vim-auto-save
 let g:auto_save = 1 " enable AutoSave on Vim startup
@@ -89,11 +73,11 @@ let g:NERDToggleCheckAllLines = 1 "Enable NERDCommenterToggle to check all selec
 
 " vimwiki
 " refer to the md plugins file for these settings
-let g:vimwiki_list = [{'path':'~/.vim/vimwiki', 'syntax':'default', 'ext':'.md'}]
+let g:vimwiki_list = [{'path':'~/.config/nvim/vimwiki', 'syntax':'default', 'ext':'.md'}]
 let g:vimwiki_hl_headers = 1
 au filetype vimwiki silent! iunmap <buffer> <Tab>
 
-au BufNewFile ~/.vim/vimwiki/diary/*.md :silent 0r !~/.vim/vimwiki/templates/diary-template '%'
+au BufNewFile ~/.config/nvim/vimwiki/diary/*.md :silent 0r !~/.config/nvim/vimwiki/templates/diary-template '%'
 
 command! Diary VimwikiDiaryIndex
 augroup vimwikigroup

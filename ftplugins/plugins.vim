@@ -1,10 +1,15 @@
-Plug 'neoclide/coc.nvim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tomasiser/vim-code-dark'
+
+Plug 'junegunn/fzf', {'dir':'~/.fzf', 'do':'./install --all'}
+Plug 'junegunn/fzf.vim'
+
+Plug 'neoclide/coc.nvim', {'branch':'release'}
 
 Plug 'ryanoasis/nerd-fonts'
 Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline' "gives a color scheme to you display
-Plug 'vim-airline/vim-airline-themes' "helps vim airline by giving a theme
-Plug 'tomasiser/vim-code-dark'
+
 Plug 'asheq/close-buffers.vim' "Handles buffers
 
 Plug 'mhinz/vim-signify' "this help with gitgutter to update the github signs in the gutter on the left
