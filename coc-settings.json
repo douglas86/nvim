@@ -1,5 +1,5 @@
 {
-// explorer
+  // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
@@ -16,6 +16,6 @@
   "html.format.enable": true,
   "html.enable": true,
   "html.filetypes": ["html", "handlebars", "django", "*.jsx"],
-	// javascript
-	"javascript.suggest.autoImports":true
+  // javascript
+  "javascript.suggest.autoImports": true
 }
