@@ -1,6 +1,7 @@
 set nu
 set title
 set tabstop=2
+set shiftwidth=2
 set softtabstop=2
 set clipboard+=unnamedplus
 set ttyfast
