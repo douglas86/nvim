@@ -10,8 +10,6 @@ Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'ryanoasis/nerd-fonts'
 Plug 'ryanoasis/vim-devicons'
 
-Plug 'asheq/close-buffers.vim' "Handles buffers
-
 Plug 'mhinz/vim-signify' "this help with gitgutter to update the github signs in the gutter on the left
 Plug 'tpope/vim-fugitive' "Used for github
 Plug 'tpope/vim-rhubarb'

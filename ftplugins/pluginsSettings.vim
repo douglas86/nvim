@@ -33,13 +33,6 @@ endfunction
 
 let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets']
 
-"close-buffers
-" timer to close all hidden buffers every 5 sec
-" let timer = timer_start(5000, 'CloseHiddenBuffers', {'repeat':-1})
-" function! CloseHiddenBuffers(timer)
-"   execute 'Bdelete hidden'
-" endfunction
-
 " vim-signify
 " Change these if you want
 let g:signify_sign_add               = '+'
