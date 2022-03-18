@@ -23,7 +23,7 @@ endfunction
 nnoremap <silent> <M-BS> :call Delete_buffers()<CR>:echo "Non-windowed buffers are deleted"<CR>
 
 "" Delete all(saved) but visible buffers
-func! Delete_buffers()
+func! Delete_buffers(timer)
     " all visible buffers in all tabs
     let buflist = []
     for i in range(tabpagenr('$'))
@@ -37,3 +37,5 @@ func! Delete_buffers()
         endif
     endfor
 endfunc
+
+let timer = timer_start(5000, 'Delete_buffers', {'repeat':-1})
