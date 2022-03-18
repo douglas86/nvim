@@ -12,9 +12,28 @@ set updatetime=100
 "hi Pmenu ctermbg=darkgrey
 "hi PmenuSel ctermbg=lightblue
 
-"functions
+" This functions always keeps cursor center of screen
 function! CentreCursor()
 				let pos = getpos(".")
 				normal! zz
 				call setpos(".", pos)
 endfunction
+
+" kill-all but visible buffers
+nnoremap <silent> <M-BS> :call Delete_buffers()<CR>:echo "Non-windowed buffers are deleted"<CR>
+
+"" Delete all(saved) but visible buffers
+func! Delete_buffers()
+    " all visible buffers in all tabs
+    let buflist = []
+    for i in range(tabpagenr('$'))
+        call extend(buflist, tabpagebuflist(i + 1))
+    endfor
+
+    " all existing buffers
+    for bnr in range(1, bufnr("$"))
+        if index(buflist, bnr) == -1 && buflisted(bnr)
+            exe 'bd ' . bnr
+        endif
+    endfor
+endfunc
