@@ -19,9 +19,6 @@ function! CentreCursor()
 				call setpos(".", pos)
 endfunction
 
-" kill-all but visible buffers
-nnoremap <silent> <M-BS> :call Delete_buffers()<CR>:echo "Non-windowed buffers are deleted"<CR>
-
 "" Delete all(saved) but visible buffers
 func! Delete_buffers(timer)
     " all visible buffers in all tabs
@@ -38,4 +35,5 @@ func! Delete_buffers(timer)
     endfor
 endfunc
 
+" kill-all but visible buffers
 let timer = timer_start(5000, 'Delete_buffers', {'repeat':-1})
