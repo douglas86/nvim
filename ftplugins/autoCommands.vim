@@ -9,6 +9,3 @@ au VimEnter * colorscheme codedark
 
 "cursor is always in middle of screen
 au CursorMoved,CursorMovedI * call CentreCursor()
-
-"everytime you leave insert mode it saves a session.vim file
-au InsertLeave * :mksession! session.vim
