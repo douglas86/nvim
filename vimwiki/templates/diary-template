@@ -8,11 +8,11 @@ template = """# {date}
 =   =
 
 == Daily Tasks ==
-    - [ ] video calls:
-	    - [ ] No video calls
-	- [ ] Today's notes:
-		- [ ]
-	- [ ]
+        - [ ] video calls:
+                - [ ] No video calls
+        - [ ] Today's notes:
+                - [ ]
+        - [ ]
 
 == Minutes of meetings =="""
 

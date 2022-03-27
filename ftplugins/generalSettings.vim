@@ -7,6 +7,7 @@ set ttyfast
 set noswapfile
 set autoread
 set updatetime=100
+setlocal spell spelllang=en_gb
 
 "color codes for popus menu
 "hi Pmenu ctermbg=darkgrey
