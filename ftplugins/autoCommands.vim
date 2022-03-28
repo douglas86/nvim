@@ -9,6 +9,3 @@ au CursorMoved,CursorMovedI * call CentreCursor()
 
 "starts spell checking of all markdown files
 au FileType markdown setlocal spell
-
-au VimEnter * :CocUpdateSync
-au VimEnter * :PlugUpdate
