@@ -15,9 +15,8 @@ let g:fzf_action = {
 			\ 'ctrl-s':'split',
 			\ 'ctrl-v':'vsplit'
 			\ }
-"if using this make sure to install silversearcher-ag
-"$ sudo apt-get install silversearcher-ag
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+"ignore node_modules .next .git from fuzzy finder
+let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .next -o -name .git \) -prune -o -print'
 
 "coc.nvim
 inoremap <silent><expr> <TAB>

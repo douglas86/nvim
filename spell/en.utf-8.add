@@ -3,3 +3,6 @@ douglas
 nvim
 config
 coc
+db
+js
+getServerSideProps

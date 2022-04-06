@@ -8,4 +8,4 @@ au VimEnter * colorscheme codedark
 au CursorMoved,CursorMovedI * call CentreCursor()
 
 "starts spell checking of all markdown files
-au FileType markdown setlocal spell
+au VimEnter *.md setlocal spell
