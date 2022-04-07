@@ -6,3 +6,5 @@ coc
 db
 js
 getServerSideProps
+jsx
+version
