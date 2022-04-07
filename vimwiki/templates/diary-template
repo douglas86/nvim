@@ -1,0 +1,22 @@
+#!/usr/bin/python3.9
+
+import sys
+import datetime
+
+template = """# {date}
+
+=   =
+
+== Daily Tasks ==
+        - [ ] video calls:
+                - [ ] No video calls
+        - [ ] Today's notes:
+                - [ ]
+        - [ ]
+
+== Minutes of meetings =="""
+
+date = (datetime.date.today() if len(sys.argv) < 2
+else sys.argv[1].rsplit(".",1)[0])
+
+print(template.format(date=date))

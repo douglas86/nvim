@@ -1,5 +1,5 @@
 " vim-airline
-let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_powerline_fonts = 1
@@ -15,9 +15,8 @@ let g:fzf_action = {
 			\ 'ctrl-s':'split',
 			\ 'ctrl-v':'vsplit'
 			\ }
-"if using this make sure to install silversearcher-ag
-"$ sudo apt-get install silversearcher-ag
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+"ignore node_modules .next .git from fuzzy finder
+let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .next -o -name .git \) -prune -o -print'
 
 "coc.nvim
 inoremap <silent><expr> <TAB>
@@ -31,14 +30,7 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets']
-
-"close-buffers
-" timer to close all hidden buffers every 5 sec
-let timer = timer_start(5000, 'CloseHiddenBuffers', {'repeat':-1})
-function! CloseHiddenBuffers(timer)
-	execute 'Bdelete hidden'
-endfunction
+let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-spell-checker']
 
 " vim-signify
 " Change these if you want

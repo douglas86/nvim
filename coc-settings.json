@@ -20,7 +20,5 @@
   // html
   "html.format.enable": true,
   "html.enable": true,
-  "html.filetypes": ["html", "handlebars", "django", "*.jsx"],
-  // javascript
-  "javascript.suggest.autoImports": true
+  "html.filetypes": ["html", "handlebars", "django", "*.jsx"]
 }
