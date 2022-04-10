@@ -30,7 +30,7 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-spell-checker']
+let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-spell-checker', 'coc-jedi']
 
 " vim-signify
 " Change these if you want
