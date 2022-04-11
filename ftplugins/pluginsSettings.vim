@@ -9,7 +9,6 @@ let g:airline#extensions#tabline#formatter = 'default'
 let g:airline_theme = 'codedark'
 
 "fuzzy finder
-nnoremap <C-p> :FZF<CR>
 let g:fzf_action = {
 			\ 'ctrl-t':'tab-split',
 			\ 'ctrl-s':'split',
@@ -30,7 +29,7 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-spell-checker', 'coc-jedi']
+let g:coc_global_extensions = ['coc-explorer', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets']
 
 " vim-signify
 " Change these if you want

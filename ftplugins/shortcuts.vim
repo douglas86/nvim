@@ -12,6 +12,10 @@ nmap <c-l> <c-w>l
 "coc-explorer
 map m :CocCommand explorer <CR>
 
+"fuzzy finder
+nnoremap <C-p> :FZF<CR>
+nnoremap <C-o> :Ag<CR>
+
 "coc-snippets
 imap <c-z> <Plug>(coc-snippets-expand)
 let g:coc_snippet_next = '<c-x>'

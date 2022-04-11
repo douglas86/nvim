@@ -8,11 +8,7 @@ set ttyfast
 set noswapfile
 set autoread
 set updatetime=100
-setlocal spell spelllang=en_gb
-
-"color codes for popus menu
-"hi Pmenu ctermbg=darkgrey
-"hi PmenuSel ctermbg=lightblue
+set wildignore=*/node_modules/*
 
 " This functions always keeps cursor center of screen
 function! CentreCursor()
