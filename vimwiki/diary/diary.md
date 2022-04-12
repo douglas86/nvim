@@ -2,6 +2,8 @@
 == 2022 ==
 
 === April ===
+  - [[2022-04-12|Tech Leadership Meetup with Gys Muller (CTO at OfferZen)]]
+  - [[2022-04-11]]
   - [[2022-04-10|Hackerthon: The other Radio project - 2 day Hackerthon]]
   - [[2022-04-09|Hackerthon: The other Radio project - 2 day Hackerthon]]
   - [[2022-04-07|Notes: Docker Compose | Notes: Postgres]]
