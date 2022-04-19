@@ -2,6 +2,8 @@
 == 2022 ==
 
 === April ===
+  - [[2022-04-19]]
+  - [[2022-04-18]]
   - [[2022-04-14]]
   - [[2022-04-12|Tech Leadership Meetup with Gys Muller (CTO at OfferZen)]]
   - [[2022-04-11]]
