@@ -16,7 +16,8 @@ template = """# {date}
     #Notes
     #Video Call
     #Hackerthon
-    #Interview prep
+    #Interview Prep
+    #Job Interview
 
 == Daily Tasks ==
 
@@ -24,7 +25,7 @@ template = """# {date}
             - [ ] No video calls
 
         === Today's notes ===
-            - [ ]
+            - [ ] 
 
 == Minutes of meetings =="""
 
