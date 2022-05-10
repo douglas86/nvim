@@ -8,7 +8,7 @@ template = """# {date}
 =   =
 
 == Used to search in dairy Index ==
-    #This gets placed between the equal signs and will be displayed as a title in diary index
+    #This is an Example of titles for diary index gets placed between equals on line 3
     #Example: = Notes: This is a note =
 
 == These are the topics for diary index ==
@@ -16,6 +16,7 @@ template = """# {date}
     #Notes
     #Video Call
     #Hackerthon
+    #Interview prep
 
 == Daily Tasks ==
 
