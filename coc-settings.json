@@ -12,6 +12,7 @@
     "filenames": ["node_modules"],
     "patternMatches": ["^\\."]
   },
+  "explorer.quitOnOpen": true,
   // prettier
   "prettier.printWidth": 80,
   "prettier.tabWidth": 2,
