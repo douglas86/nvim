@@ -8,7 +8,7 @@ au VimEnter * colorscheme codedark
 au CursorMoved,CursorMovedI * call CentreCursor()
 
 "starts spell checking of all markdown files
-au VimEnter *.md setlocal spell
+au VimEnter,BufEnter *.md :set spell
 
 "save vim sessions
-au InsertLeave,BufWrite *.html,*.css,*.jsx,*.js,*.json,*.tsx,*.ts :mksession! session.vim
+au InsertLeave,BufWrite,VimLeave *.html,*.css,*.jsx,*.js,*.json,*.tsx,*.ts :mksession! session.vim

@@ -5,7 +5,7 @@ import datetime
 
 template = """# {date}
 
-=   =
+=  =
 
 == Used to search in dairy Index ==
     #This is an Example of titles for diary index gets placed between equals on line 3
@@ -15,9 +15,10 @@ template = """# {date}
     #Features
     #Notes
     #Video Call
-    #Hackerthon
+    #Hackathon
     #Interview Prep
     #Job Interview
+    #In Person Event
 
 == Daily Tasks ==
 

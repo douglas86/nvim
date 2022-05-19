@@ -9,6 +9,7 @@ set noswapfile
 set autoread
 set updatetime=100
 set wildignore=*/node_modules/*
+set nowrap
 
 " This functions always keeps cursor center of screen
 function! CentreCursor()

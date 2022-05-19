@@ -2,7 +2,11 @@
 == 2022 ==
 
 === May ===
-  - [[2022-05-10|Interview prep: mock interview with CapeGemini]]
+  - [[2022-05-18|Video Call: Emotional iq - event - hosted by symbol]]
+  - [[2022-05-17|Video Call: Meeting with Barny from cyf employment]]
+  - [[2022-05-12|Video Call: Capgemini Insights and Data Insights Session]]
+  - [[2022-05-11|Job Interview: Mock interview with Capgemini | Video Call: Capgemini Digital Customer Experience Insight Session]]
+  - [[2022-05-10|Interview Prep: mock interview with CapeGemini]]
   - [[2022-05-09]]
   - [[2022-05-04|Video Call: Expats / Migrants Immegration minutes]]
   - [[2022-05-02]]
