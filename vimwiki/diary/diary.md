@@ -2,6 +2,8 @@
 == 2022 ==
 
 === May ===
+  - [[2022-05-21|Features: Personal Link Tracker]]
+  - [[2022-05-19|In Person Event: Codebridge Newlands]]
   - [[2022-05-18|Video Call: Emotional iq - event - hosted by symbol]]
   - [[2022-05-17|Video Call: Meeting with Barny from cyf employment]]
   - [[2022-05-12|Video Call: Capgemini Insights and Data Insights Session]]
