@@ -22,6 +22,7 @@ template = """# {date}
 
     === Topic Categories ===
         #Features - this is used to describe what features need to be added to my project
+        #Bugs - this is for if I have found any bugs in my projects
         #Notes - this is for if there is a topic that I want to take notes on
         #Video Call - self explanatory
         #Hackathon - notes and description on the Hackathon that I took part in

@@ -2,6 +2,8 @@
 == 2022 ==
 
 === May ===
+  - [[2022-05-23|Bugs: personal-link-tracker]]
+  - [[2022-05-22]]
   - [[2022-05-21|Features: Personal Link Tracker]]
   - [[2022-05-19|In Person Event: Codebridge Newlands]]
   - [[2022-05-18|Video Call: Emotional iq - event - hosted by symbol]]
