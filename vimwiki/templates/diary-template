@@ -14,7 +14,17 @@ template = """# {date}
 
     === Today's Tasks ===
         - [ ] 
+        - [ ] Shares:
+            - shares need to be checked twice daily
+            - [ ] check shares at open @9:30
+            - [ ] check shares at close @16:30
         - [ ] Create a google and vimwiki entry
+
+    === Shares ===
+        - [ ] Bought:
+            - [ ] 
+        - [ ] Sold:
+            - [ ] 
 
 == Topics ==
 
@@ -29,7 +39,6 @@ template = """# {date}
         #Interview Prep - when I am preparing for a job Interview
         #Job Interview - when i have a job Interview
         #In Person Event - self explanatory"""
-
 date = (datetime.date.today() if len(sys.argv) < 2
 else sys.argv[1].rsplit(".",1)[0])
 
