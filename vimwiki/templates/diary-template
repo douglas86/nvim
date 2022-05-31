@@ -17,7 +17,7 @@ template = """# {date}
         - [ ] Shares:
             - shares need to be checked twice daily
             - [ ] check shares at open @9:30
-            - [ ] check shares at close @16:30
+            - [ ] check shares at close @16:00
         - [ ] Create a google and vimwiki entry
 
     === Shares ===

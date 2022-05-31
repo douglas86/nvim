@@ -2,6 +2,7 @@
 == 2022 ==
 
 === May ===
+  - [[2022-05-25|Notes: Docker]]
   - [[2022-05-23|Bugs: personal-link-tracker]]
   - [[2022-05-22]]
   - [[2022-05-21|Features: Personal Link Tracker]]
@@ -26,7 +27,7 @@
   - [[2022-04-11]]
   - [[2022-04-10|Hackerthon: The other Radio project - 2 day Hackerthon]]
   - [[2022-04-09|Hackerthon: The other Radio project - 2 day Hackerthon]]
-  - [[2022-04-07|Notes: Docker Compose | Notes: Postgres]]
+  - [[2022-04-07|Notes: Postgres]]
   - [[2022-04-06]]
   - [[2022-04-04]]
 
